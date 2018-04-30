@@ -24,47 +24,13 @@ html {
     }
 
     .top-nav-collapse {
-        padding: 0;
+        padding: 0px;
     }
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #000000;
-    color: #ffffff;
-/*    background-image: url("images/intro_image.jpg");*/
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #ffffff;
-    color: #000000;
-}
-
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #000000;
-    color: #ffffff;
-    
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #ffffff;
-    color: #000000;
-}
 
 .element-to-hide{
     visibility:hidden;
@@ -79,30 +45,5 @@ a.list-group-item.inverse, button.list-group-item.inverse {
     color: #000000;
     background-color: #ffffff;
 }
-.banner {
-    font-size: 70px;
-}
-.sub-banner{
-    font-size: 20px;
-    color: #f7ac20;
-    bottom: 0;
-    display: inline-block;
-}
 
-#myVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 88%; 
-    min-height: 100%;
-    width: auto; 
-    height: auto;
-    background-size: cover;
-    overflow: hidden;
-    opacity: 0.5;
-}
-
-#motto {
-    font-size: 30px;
-}
 }

@@ -1,0 +1,73 @@
+.navbar-brand {
+  /*padding: 0px;*/
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    /*background-image: url("../wordcloud.jpg");
+    background: contain no-repeat; */
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #ffffff;
+    color: #000000;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #ffffff;
+    color: #000000;
+}
+
+#introduction {
+    font-size: 30px;
+}
+
+.banner {
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.sub-banner{
+    font-size: 20px;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 88%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.badge {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 38px;
+  text-align: center;
+  background: #000
+}
