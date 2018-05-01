@@ -1,3 +1,14 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+.container {
+  padding: 0;
+}
+
 .navbar-brand {
   /*padding: 0px;*/
 }
@@ -6,13 +17,13 @@
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    /*background-image: url("../wordcloud.jpg");
-    background: contain no-repeat; */
+    /*background-image: url("../wordcloud.jpg");*/
+    /*background: contain no-repeat; */
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
     text-align: center;
     background: #ffffff;
     color: #000000;
@@ -70,4 +81,34 @@
   line-height: 38px;
   text-align: center;
   background: #000
+}
+
+h1.about-me {
+  margin-bottom: 50px;
+}
+
+.education {
+  display: flex;
+}
+
+.masters {
+  width: 50%;
+}
+
+.bachelors {
+  width: 50%;
+}
+
+@media (max-width:992px){
+
+.education {
+  display: block;
+}
+.masters {
+  width: 100%;
+}
+
+.bachelors {
+  width: 100%;
+}
 }

@@ -20,7 +20,7 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".fixed-top">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand page-scroll" href="#page-top"><div class="badge">SR</div></a>
@@ -62,40 +62,39 @@
         <div class="container">
             <div class="row">                
                 <div class="col-lg-12">
-                    <h1>About Me</h1>
-                    <div class="col-md-8" style="margin-top: 3%; margin-left: 17%;">
-                        <h3>Education</h3>
-                        <div style="display: inline; float: left;">
-                            <h4>Master of Science</h4>
-                            <h5>Computer Science (M.S)</h5>
-                            <p>University of Southern California</p>
-                            <p>Los Angeles, California</p>                            
-                            <p>August 2016- May 2018 (Expected)</p>
+                        <h1 class="about-me">About Me</h1>
+                        <div class="education">
+                          <div class="masters">
+                              <h4>Master of Science</h4>
+                              <h5>Computer Science (M.S)</h5>
+                              <p>University of Southern California</p>
+                              <p>Los Angeles, California</p>                            
+                              <p>August 2016- May 2018 (Expected)</p>
+                          </div>
+                          <div class="bachelors">
+                              <h4>Bachelor of Technology</h4>
+                              <h5>Computer Science & Engineering (B.Tech)</h5>
+                              <p>SRM Institute of Engineering and Technology</p>
+                              <p>Chennai, India</p>
+                              <p>August 2012- May 2016</p>
+                          </div>
                         </div>
-                        <div style="float: right;">
-                            <h4>Bachelor of Technology</h4>
-                            <h5>Computer Science & Engineering (B.Tech)</h5>
-                            <p>SRM Institute of Engineering and Technology</p>
-                            <p>Chennai, India</p>
-                            <p>August 2012- May 2016</p>
+                        <hr class="col-md-12">
+                        <div class="col-lg-12">
+                            <h3>Skills</h3>
+                            <p>• Programming Languages: Python, Java, C#, C, C++.</p>
+                            <p>• Databases: MySQL, PostgreSQL, Oracle PL/SQL, PostGIS (Spatial database).</p>
+                            <p>• Web Development: HTML5, CSS3, JavaScript, jQuery, AngularJS, PHP, AJAX, Bootstrap, JSON, ASP.NET.</p>
+                            <p>• Platforms and Tools: Eclipse, OpenCV, Android Studio, AWS, Weka, KML, Microsoft Visual Studio.</p>
+                            <p>• Operating Systems: Windows, Linux (RedHat, Ubuntu).</p>
                         </div>
-                    </div>
-                    <hr class="col-md-12">
-                    <div class="col-md-12">
-                        <h3>Skills</h3>
-                        <p>• Programming Languages: Python, Java, C#, C, C++.</p>
-                        <p>• Databases: MySQL, PostgreSQL, Oracle PL/SQL, PostGIS (Spatial database).</p>
-                        <p>• Web Development: HTML5, CSS3, JavaScript, jQuery, AngularJS, PHP, AJAX, Bootstrap, JSON, ASP.NET.</p>
-                        <p>• Platforms and Tools: Eclipse, OpenCV, Android Studio, AWS, Weka, KML, Microsoft Visual Studio.</p>
-                        <p>• Operating Systems: Windows, Linux (RedHat, Ubuntu).</p>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services-section">
+<!--     <section id="services" class="services-section">
         <div class="container">
             <div class="row" style="display: block;">
                 <h1>Experience</h1>
@@ -138,10 +137,10 @@
               </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+<!--     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -156,10 +155,6 @@
                   <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project4" role="tab">United States Congress Information Search Webpage and Android App</a>
                   <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project5" role="tab">Comprehensive Healthcare System to Detect Depression</a>
                   <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project6" role="tab">Face Recognition Software</a>
-                  <!-- <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project7" role="tab">project7</a>
-                  <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project8" role="tab">project8</a>
-                  <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project9" role="tab">project9</a>
-                  <a class="list-group-item list-group-item-action inverse" data-toggle="list" href="#project10" role="tab">project10</a> -->
                 </div>
               </div>
               <div class="col-md-9" style="margin-top: 8%;">
@@ -206,40 +201,12 @@
                         Designed a face recognition software that detects and recognizes faces for security and authentication purposes. Implemented using Python and OpenCV. Used the AT&T Database for training.
                     </p>
                   </div>
-                  <!-- <div class="tab-pane" id="project7" role="tabpanel">
-                    <h2>project7</h2>
-                    <p>(June 2017 – August 2017)</p>
-                    <p>
-                        Designed a meal recommendation algorithm for a fully customizable mobile nutrition app that is designed to empower fitness professionals to create and monitor practical nutrition programs for their clients. The system recommends meal options for users based on their food preferences, past meal plans, nutrition goals and meal plans of other similar users. Used collaborative filtering as the primary machine learning algorithm to achieve the same.
-                    </p>
-                  </div>
-                  <div class="tab-pane" id="project8" role="tabpanel">
-                    <h2>project8</h2>
-                    <p>(June 2017 – August 2017)</p>
-                    <p>
-                        Designed a meal recommendation algorithm for a fully customizable mobile nutrition app that is designed to empower fitness professionals to create and monitor practical nutrition programs for their clients. The system recommends meal options for users based on their food preferences, past meal plans, nutrition goals and meal plans of other similar users. Used collaborative filtering as the primary machine learning algorithm to achieve the same.
-                    </p>
-                  </div>
-                  <div class="tab-pane" id="project9" role="tabpanel">
-                    <h2>project9</h2>
-                    <p>(June 2017 – August 2017)</p>
-                    <p>
-                        Designed a meal recommendation algorithm for a fully customizable mobile nutrition app that is designed to empower fitness professionals to create and monitor practical nutrition programs for their clients. The system recommends meal options for users based on their food preferences, past meal plans, nutrition goals and meal plans of other similar users. Used collaborative filtering as the primary machine learning algorithm to achieve the same.
-                    </p>
-                  </div>
-                  <div class="tab-pane" id="project10" role="tabpanel">
-                    <h2>project10</h2>
-                    <p>(June 2017 – August 2017)</p>
-                    <p>
-                        Designed a meal recommendation algorithm for a fully customizable mobile nutrition app that is designed to empower fitness professionals to create and monitor practical nutrition programs for their clients. The system recommends meal options for users based on their food preferences, past meal plans, nutrition goals and meal plans of other similar users. Used collaborative filtering as the primary machine learning algorithm to achieve the same.
-                    </p>
-                  </div> -->
                 </div>
               </div>
             </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
