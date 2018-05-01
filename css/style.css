@@ -1,29 +1,23 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0; 
-}
-
-.container {
-  padding: 0;
-}
-
-.navbar-brand {
-  /*padding: 0px;*/
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
     text-align: center;
     /*background-image: url("../wordcloud.jpg");*/
     /*background: contain no-repeat; */
 }
 
 .about-section {
-    /*height: 100%;*/
-    /*padding-top: 150px;*/
+    height: 100%;
+    padding-top: 150px;
     text-align: center;
     background: #ffffff;
     color: #000000;
